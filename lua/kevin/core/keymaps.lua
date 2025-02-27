@@ -6,7 +6,7 @@ local km = vim.keymap -- conciseness
 -- jk = exit insert mode
 -- space nh = clear search highlights
 
-km.set("i", "jk", "<ESC", { desc = "Exit insert mode with jk" })
+km.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
 km.set("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" })
 km.set("n", "<leader>+", "<C-a>", { desc = "Increment number" })
 km.set("n", "<leader>-", "<C-x>", { desc = "Decrement number" })

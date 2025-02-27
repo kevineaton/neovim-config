@@ -22,28 +22,44 @@ return {
       },
       -- ensure these language parsers are installed
       ensure_installed = {
+        -- general formats
+        "gitignore",
         "json",
-        "javascript",
-        "typescript",
-        "tsx",
-        "yaml",
-        "html",
-        "css",
-        "prisma",
         "markdown",
         "markdown_inline",
-        "svelte",
-        "graphql",
+        "ssh_config",
+        "yaml",
+        
+        -- languages - scripting
         "bash",
         "lua",
-        "vim",
-        "dockerfile",
-        "gitignore",
-        "query",
+        "python",
         "vimdoc",
+
+        -- languages - frontend
+        "css",
+        "html",
+        "javascript",
+        "typescript",
+        
+        -- languages - frontend frameworks
+        "svelte",
+        "tsx",
+        
+        -- languages - backend / system
         "c",
+        "java",
         "go",
-        "python"
+        "odin",
+        "rust",
+        "zig",
+
+        -- devops / tools
+        "dockerfile",
+        "nginx",
+        "tmux",
+        "vim",
+
       },
       incremental_selection = {
         enable = true,
